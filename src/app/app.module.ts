@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AcercaDComponent } from './component/acerca-d/acerca-d.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AcercaDComponent
   ],
   imports: [
     BrowserModule,
@@ -16,3 +18,6 @@ import { AppComponent } from './app.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
+
