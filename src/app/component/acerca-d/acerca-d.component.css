@@ -1,0 +1,38 @@
+.row{
+    padding:10px;
+}
+  div{
+    background-color: greenyellow;
+    text-align: center;
+
+  }
+  /*Etiqueta de nombre esta en el acerca d componeten html el id nomnre*/
+  #nombre{
+    font-weight: bold;
+    margin-top: 40%;
+
+  }
+  /*Etiqueta de foto de perfil esta en el html de acerca d*/
+  @media (min-width:576px){
+    #fotodeperfil{
+    position: absolute;
+    width: 15%;
+    border-radius: 100%;
+    box-shadow:  3px 3px 3px black;
+    left:3%;
+    top: 600px;
+}
+  }
+  @media (max-width:575px){
+    #fotodeperfil{
+    position: absolute;
+    width: 30%;
+    border-radius: 100%;
+    box-shadow:  3px 3px 3px black;
+    left:33%;
+    top: 630px;
+}
+  }
+
+  
+  
